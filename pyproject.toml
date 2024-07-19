@@ -37,6 +37,12 @@ dependencies = [
     "python-dateutil",
     "Sphinx",
 ]
+[project.optional-dependencies]
+dev = [
+    "atelier",
+    "hatch",
+    "pytest",
+]
 
 [project.urls]
 homepage = "https://github.com/lsaffre/sphinxfeed"
